@@ -82,34 +82,40 @@
 	  		font-size: 1rem;
 	  	}
 	  	@media screen and (min-width: 1200px) {
-			  /*#folder1{
-			  	top : 10vh;
+			  #folder1{
 			  	position: relative;
+			  	left: 50%;
+			  	transform: translateX(-50%);
+			  	float: both;
 			  }
 			  #folder2{
-					left: 50%;
-					transform: translateX(-50%);
+			  	top : 5vh;
+					left: -30%;
 					position: relative;
 			  }
 			  #folder2b{
-			  	left : 10%;
-			  	top : 10vh;
+			  	float: right;
+			  	top : 5vh;
 			  	position: relative;
 			  }
 			  #folder3{
-			  	
+			  	top : -1vh;
+			  	position: relative;
 			  }
 			  #folder3b{
-			  	left : 35%;
+			  	float: right;
+			  	top : 5vh;
 			  	position: relative;
 			  }
 			  #folder4{
-			  	
+			  	top : 5vh;
+			  	position: relative;
 			  }
 			  #folder5{
-			  	left : 35%;
+			  	float: right;
+			  	top : 5vh;
 			  	position: relative;
-			  }*/
+			  }
 			  .clear{
 				  clear: both;
 				}
