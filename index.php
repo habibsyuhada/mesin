@@ -89,31 +89,31 @@
 			  	float: both;
 			  }
 			  #folder2{
-			  	top : 5vh;
+			  	/*top : 5vh;*/
 					left: -30%;
 					position: relative;
 			  }
 			  #folder2b{
 			  	float: right;
-			  	top : 5vh;
+			  	/*top : 5vh;*/
 			  	position: relative;
 			  }
 			  #folder3{
-			  	top : -1vh;
+			  	/*top : -1vh;*/
 			  	position: relative;
 			  }
 			  #folder3b{
 			  	float: right;
-			  	top : 5vh;
+			  	/*top : 5vh;*/
 			  	position: relative;
 			  }
 			  #folder4{
-			  	top : 5vh;
+			  	/*top : 5vh;*/
 			  	position: relative;
 			  }
 			  #folder5{
 			  	float: right;
-			  	top : 5vh;
+			  	/*top : 5vh;*/
 			  	position: relative;
 			  }
 			  .clear{
@@ -126,7 +126,7 @@
 		<div class="container-fluid">
 			<br>
 				
-			<div id="folder1" class="folder folder-25 card bg-transparent mb-3 d-flex border-0 draggable">
+			<div id="folder1" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
 				<div class="folder-header" >
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
@@ -163,7 +163,7 @@
 			  </div>
 			</div>						
 
-			<div id="folder2" class="folder folder-25 card bg-transparent mb-3 d-flex border-0 draggable">
+			<div id="folder2" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
 				<div class="folder-header" >
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
@@ -200,7 +200,7 @@
 			  </div>
 			</div>
 
-			<div id="folder2b" class="folder folder-25 card bg-transparent mb-3 d-flex border-0 draggable">
+			<div id="folder2b" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
 				<div class="folder-header" >
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
@@ -239,7 +239,7 @@
 			
 			<div class="clear"></div>
 
-			<div id="folder4" class="folder folder-25 card bg-transparent mb-3 d-flex border-0 draggable">
+			<div id="folder4" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
 				<div class="folder-header">
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
@@ -284,7 +284,7 @@
 			  </div>
 			</div>
 
-			<div id="folder5" class="folder folder-25 card bg-transparent mb-3 d-flex border-0 draggable">
+			<div id="folder5" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
 				<div class="folder-header" >
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
@@ -365,7 +365,7 @@
 
 			<div class="clear"></div>
 
-			<div id="folder3" class="folder folder-25 card bg-transparent mb-3 d-flex border-0 draggable">
+			<div id="folder3" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
 				<div class="folder-header" >
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
@@ -424,7 +424,7 @@
 			  </div>
 			</div>
 
-			<div id="folder3b" class="folder folder-25 card bg-transparent mb-3 d-flex border-0 draggable">
+			<div id="folder3b" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
 				<div class="folder-header" >
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
@@ -844,10 +844,10 @@
 
 		$( document ).ready(function() {
 		    $( ".draggable" ).draggable({
-		    	scroll: false,
+		    	// scroll: false,
 		    	cursor: "move",
 		    	handle: ".card-header",
-		    	containment: "parent"
+		    	// containment: "parent"
 		    });
 		    $( ".resizable-1" ).resizable({
 		    	alsoResize: "#folder1"
