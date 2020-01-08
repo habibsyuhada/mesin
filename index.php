@@ -126,7 +126,7 @@
 		<div class="container-fluid">
 			<br>
 				
-			<div id="folder1" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
+			<div id="folder1" class="folder folder-25 card bg-transparent d-flex border-0 draggable pr-3">
 				<div class="folder-header" >
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
@@ -146,13 +146,13 @@
 						<div class="col-3">
 							<canvas id="autoburst" height="100%"></canvas>
 						</div>
-						<div class="col-9">
+						<div class="col-9 px-1">
 							<div class="row">
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_1-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_1-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
@@ -163,11 +163,11 @@
 			  </div>
 			</div>						
 
-			<div id="folder2" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
+			<div id="folder2" class="folder folder-25 card bg-transparent d-flex border-0 draggable pr-3">
 				<div class="folder-header" >
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
-			  <div class="card-body resizable-1">
+			  <div class="card-body resizable-2">
 			    <div class="row align-items-center justify-content-center">
 			    	<div class="col-4">
 			    		<img id="img_2" src="" width="80%">
@@ -183,13 +183,13 @@
 						<div class="col-3">
 							<canvas id="elemendorf1" height="100%"></canvas>
 						</div>
-						<div class="col-9">
+						<div class="col-9 px-1">
 							<div class="row">
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_2-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_2-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
@@ -200,11 +200,11 @@
 			  </div>
 			</div>
 
-			<div id="folder2b" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
+			<div id="folder2b" class="folder folder-25 card bg-transparent d-flex border-0 draggable pr-3">
 				<div class="folder-header" >
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
-			  <div class="card-body resizable-1">
+			  <div class="card-body resizable-2b">
 			    <div class="row align-items-center justify-content-center">
 			    	<div class="col-4">
 			    		<img id="img_2b" src="" width="80%">
@@ -220,13 +220,13 @@
 						<div class="col-3">
 							<canvas id="elemendorf2" height="100%"></canvas>
 						</div>
-						<div class="col-9">
+						<div class="col-9 px-1">
 							<div class="row">
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_2b-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_2b-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
@@ -239,11 +239,11 @@
 			
 			<div class="clear"></div>
 
-			<div id="folder4" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
+			<div id="folder4" class="folder folder-25 card bg-transparent d-flex border-0 draggable pr-3">
 				<div class="folder-header">
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
-			  <div class="card-body resizable-1">
+			  <div class="card-body resizable-4">
 			    <div class="row align-items-center justify-content-center">
 			    	<div class="col-4">
 			    		<img id="img_4" src="" width="80%">
@@ -259,21 +259,21 @@
 						<div class="col-3">
 							<canvas id="testometric1" height="100%"></canvas>
 						</div>
-						<div class="col-9">
+						<div class="col-9 px-1">
 							<div class="row">
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_4-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_4-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_4-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff0080" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_4-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#9f00a7" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
@@ -284,11 +284,11 @@
 			  </div>
 			</div>
 
-			<div id="folder5" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
+			<div id="folder5" class="folder folder-25 card bg-transparent d-flex border-0 draggable pr-3">
 				<div class="folder-header" >
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
-			  <div class="card-body resizable-1">
+			  <div class="card-body resizable-5">
 			    <div class="row align-items-center justify-content-center">
 			    	<div class="col-4">
 			    		<img id="img_5" src="" width="80%">
@@ -306,19 +306,19 @@
 						</div>
 						<div class="col-9">
 							<div class="row">
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff0080" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-4" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#9f00a7" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
@@ -332,27 +332,27 @@
 								</div> -->
 							</div>
 							<div class="row">
-								<!-- <div class="col-sm-3">
+								<!-- <div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff0080" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-4" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#9f00a7" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div> -->
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-5" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#99b433" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-6" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff7675" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
@@ -365,11 +365,11 @@
 
 			<div class="clear"></div>
 
-			<div id="folder3" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
+			<div id="folder3" class="folder folder-25 card bg-transparent d-flex border-0 draggable pr-3">
 				<div class="folder-header" >
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
-			  <div class="card-body resizable-1">
+			  <div class="card-body resizable-3">
 			    <div class="row align-items-center justify-content-center">
 			    	<div class="col-4">
 			    		<img id="img_3" src="" width="80%">
@@ -385,35 +385,35 @@
 						<div class="col-3">
 							<canvas id="testometric2" height="100%"></canvas>
 						</div>
-						<div class="col-9">
+						<div class="col-9 px-1">
 							<div class="row">
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff0080" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3-4" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#9f00a7" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3-5" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#99b433" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3-6" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff7675" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3-7" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ee1111" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
@@ -424,11 +424,11 @@
 			  </div>
 			</div>
 
-			<div id="folder3b" class="folder folder-25 card bg-transparent d-flex border-0 draggable">
+			<div id="folder3b" class="folder folder-25 card bg-transparent d-flex border-0 draggable pr-3">
 				<div class="folder-header" >
 			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
 				</div>
-			  <div class="card-body resizable-1">
+			  <div class="card-body resizable-3b">
 			    <div class="row align-items-center justify-content-center">
 			    	<div class="col-4">
 			    		<img id="img_3b" src="" width="80%">
@@ -444,35 +444,35 @@
 						<div class="col-3">
 							<canvas id="testometric3" height="100%"></canvas>
 						</div>
-						<div class="col-9">
+						<div class="col-9 px-1">
 							<div class="row">
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3b-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3b-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3b-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff0080" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3b-4" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#9f00a7" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3b-5" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#99b433" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3b-6" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff7675" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<div class="col-sm-3">
+								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3b-7" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ee1111" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
@@ -485,362 +485,362 @@
 
 		</div>
 		<script type="text/javascript">
-  $(function () {
-    ctx = document.getElementById('autoburst').getContext('2d');
-    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin1)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
-    myChart = new Chart(ctx, {
-      type: 'line',
-      data: data,
-      options: {
-                responsive: !0,
-                maintainAspectRatio: !1,
-                title: {
-                    display: !1,
-                    text: "Chart.js Line Chart"
-                },
-                legend: {
-                    display: !1
-                },
-                layout: {
-                    padding: {
-                        left: 10,
-                        right: 10,
-                        top: 10,
-                        bottom: 10
-                    }
-                },
-                tooltips: {
-                    mode: "index",
-                    intersect: !1
-                },
-                hover: {
-                    mode: "nearest",
-                    intersect: !0
-                },
-                scales: {
-                    xAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Month"
-                        }
-                    }],
-                    yAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Value"
-                        }
-                    }]
-                }
-            }
-    });
+		  $(function () {
+		    ctx = document.getElementById('autoburst').getContext('2d');
+		    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin1)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
+		    myChart = new Chart(ctx, {
+		      type: 'line',
+		      data: data,
+		      options: {
+		                responsive: !0,
+		                maintainAspectRatio: !1,
+		                title: {
+		                    display: !1,
+		                    text: "Chart.js Line Chart"
+		                },
+		                legend: {
+		                    display: !1
+		                },
+		                layout: {
+		                    padding: {
+		                        left: 10,
+		                        right: 10,
+		                        top: 10,
+		                        bottom: 10
+		                    }
+		                },
+		                tooltips: {
+		                    mode: "index",
+		                    intersect: !1
+		                },
+		                hover: {
+		                    mode: "nearest",
+		                    intersect: !0
+		                },
+		                scales: {
+		                    xAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Month"
+		                        }
+		                    }],
+		                    yAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Value"
+		                        }
+		                    }]
+		                }
+		            }
+		    });
 
-    ctx1 = document.getElementById('elemendorf1').getContext('2d');
-    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin2)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
-    myChart = new Chart(ctx1, {
-      type: 'line',
-      data: data,
-      options: {
-                responsive: !0,
-                maintainAspectRatio: !1,
-                title: {
-                    display: !1,
-                    text: "Chart.js Line Chart"
-                },
-                legend: {
-                    display: !1
-                },
-                layout: {
-                    padding: {
-                        left: 10,
-                        right: 10,
-                        top: 10,
-                        bottom: 10
-                    }
-                },
-                tooltips: {
-                    mode: "index",
-                    intersect: !1
-                },
-                hover: {
-                    mode: "nearest",
-                    intersect: !0
-                },
-                scales: {
-                    xAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Month"
-                        }
-                    }],
-                    yAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Value"
-                        }
-                    }]
-                }
-            }
-    });
-    
-    ctx2 = document.getElementById('elemendorf2').getContext('2d');
-    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin2)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
-    myChart = new Chart(ctx2, {
-      type: 'line',
-      data: data,
-      options: {
-                responsive: !0,
-                maintainAspectRatio: !1,
-                title: {
-                    display: !1,
-                    text: "Chart.js Line Chart"
-                },
-                legend: {
-                    display: !1
-                },
-                layout: {
-                    padding: {
-                        left: 10,
-                        right: 10,
-                        top: 10,
-                        bottom: 10
-                    }
-                },
-                tooltips: {
-                    mode: "index",
-                    intersect: !1
-                },
-                hover: {
-                    mode: "nearest",
-                    intersect: !0
-                },
-                scales: {
-                    xAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Month"
-                        }
-                    }],
-                    yAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Value"
-                        }
-                    }]
-                }
-            }
-    });
+		    ctx1 = document.getElementById('elemendorf1').getContext('2d');
+		    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin2)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
+		    myChart = new Chart(ctx1, {
+		      type: 'line',
+		      data: data,
+		      options: {
+		                responsive: !0,
+		                maintainAspectRatio: !1,
+		                title: {
+		                    display: !1,
+		                    text: "Chart.js Line Chart"
+		                },
+		                legend: {
+		                    display: !1
+		                },
+		                layout: {
+		                    padding: {
+		                        left: 10,
+		                        right: 10,
+		                        top: 10,
+		                        bottom: 10
+		                    }
+		                },
+		                tooltips: {
+		                    mode: "index",
+		                    intersect: !1
+		                },
+		                hover: {
+		                    mode: "nearest",
+		                    intersect: !0
+		                },
+		                scales: {
+		                    xAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Month"
+		                        }
+		                    }],
+		                    yAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Value"
+		                        }
+		                    }]
+		                }
+		            }
+		    });
+		    
+		    ctx2 = document.getElementById('elemendorf2').getContext('2d');
+		    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin2)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
+		    myChart = new Chart(ctx2, {
+		      type: 'line',
+		      data: data,
+		      options: {
+		                responsive: !0,
+		                maintainAspectRatio: !1,
+		                title: {
+		                    display: !1,
+		                    text: "Chart.js Line Chart"
+		                },
+		                legend: {
+		                    display: !1
+		                },
+		                layout: {
+		                    padding: {
+		                        left: 10,
+		                        right: 10,
+		                        top: 10,
+		                        bottom: 10
+		                    }
+		                },
+		                tooltips: {
+		                    mode: "index",
+		                    intersect: !1
+		                },
+		                hover: {
+		                    mode: "nearest",
+		                    intersect: !0
+		                },
+		                scales: {
+		                    xAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Month"
+		                        }
+		                    }],
+		                    yAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Value"
+		                        }
+		                    }]
+		                }
+		            }
+		    });
 
-    ctx1 = document.getElementById('testometric1').getContext('2d');
-    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin3)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
-    myChart = new Chart(ctx1, {
-      type: 'line',
-      data: data,
-      options: {
-                responsive: !0,
-                maintainAspectRatio: !1,
-                title: {
-                    display: !1,
-                    text: "Chart.js Line Chart"
-                },
-                legend: {
-                    display: !1
-                },
-                layout: {
-                    padding: {
-                        left: 10,
-                        right: 10,
-                        top: 10,
-                        bottom: 10
-                    }
-                },
-                tooltips: {
-                    mode: "index",
-                    intersect: !1
-                },
-                hover: {
-                    mode: "nearest",
-                    intersect: !0
-                },
-                scales: {
-                    xAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Month"
-                        }
-                    }],
-                    yAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Value"
-                        }
-                    }]
-                }
-            }
-    });
+		    ctx1 = document.getElementById('testometric1').getContext('2d');
+		    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin3)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
+		    myChart = new Chart(ctx1, {
+		      type: 'line',
+		      data: data,
+		      options: {
+		                responsive: !0,
+		                maintainAspectRatio: !1,
+		                title: {
+		                    display: !1,
+		                    text: "Chart.js Line Chart"
+		                },
+		                legend: {
+		                    display: !1
+		                },
+		                layout: {
+		                    padding: {
+		                        left: 10,
+		                        right: 10,
+		                        top: 10,
+		                        bottom: 10
+		                    }
+		                },
+		                tooltips: {
+		                    mode: "index",
+		                    intersect: !1
+		                },
+		                hover: {
+		                    mode: "nearest",
+		                    intersect: !0
+		                },
+		                scales: {
+		                    xAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Month"
+		                        }
+		                    }],
+		                    yAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Value"
+		                        }
+		                    }]
+		                }
+		            }
+		    });
 
-    ctx1 = document.getElementById('testometric2').getContext('2d');
-    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin3)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
-    myChart = new Chart(ctx1, {
-      type: 'line',
-      data: data,
-      options: {
-                responsive: !0,
-                maintainAspectRatio: !1,
-                title: {
-                    display: !1,
-                    text: "Chart.js Line Chart"
-                },
-                legend: {
-                    display: !1
-                },
-                layout: {
-                    padding: {
-                        left: 10,
-                        right: 10,
-                        top: 10,
-                        bottom: 10
-                    }
-                },
-                tooltips: {
-                    mode: "index",
-                    intersect: !1
-                },
-                hover: {
-                    mode: "nearest",
-                    intersect: !0
-                },
-                scales: {
-                    xAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Month"
-                        }
-                    }],
-                    yAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Value"
-                        }
-                    }]
-                }
-            }
-    });
+		    ctx1 = document.getElementById('testometric2').getContext('2d');
+		    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin3)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
+		    myChart = new Chart(ctx1, {
+		      type: 'line',
+		      data: data,
+		      options: {
+		                responsive: !0,
+		                maintainAspectRatio: !1,
+		                title: {
+		                    display: !1,
+		                    text: "Chart.js Line Chart"
+		                },
+		                legend: {
+		                    display: !1
+		                },
+		                layout: {
+		                    padding: {
+		                        left: 10,
+		                        right: 10,
+		                        top: 10,
+		                        bottom: 10
+		                    }
+		                },
+		                tooltips: {
+		                    mode: "index",
+		                    intersect: !1
+		                },
+		                hover: {
+		                    mode: "nearest",
+		                    intersect: !0
+		                },
+		                scales: {
+		                    xAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Month"
+		                        }
+		                    }],
+		                    yAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Value"
+		                        }
+		                    }]
+		                }
+		            }
+		    });
 
-    ctx1 = document.getElementById('statimat').getContext('2d');
-    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin4)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
-    myChart = new Chart(ctx1, {
-      type: 'line',
-      data: data,
-      options: {
-                responsive: !0,
-                maintainAspectRatio: !1,
-                title: {
-                    display: !1,
-                    text: "Chart.js Line Chart"
-                },
-                legend: {
-                    display: !1
-                },
-                layout: {
-                    padding: {
-                        left: 10,
-                        right: 10,
-                        top: 10,
-                        bottom: 10
-                    }
-                },
-                tooltips: {
-                    mode: "index",
-                    intersect: !1
-                },
-                hover: {
-                    mode: "nearest",
-                    intersect: !0
-                },
-                scales: {
-                    xAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Month"
-                        }
-                    }],
-                    yAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Value"
-                        }
-                    }]
-                }
-            }
-    });
+		    ctx1 = document.getElementById('statimat').getContext('2d');
+		    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin4)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
+		    myChart = new Chart(ctx1, {
+		      type: 'line',
+		      data: data,
+		      options: {
+		                responsive: !0,
+		                maintainAspectRatio: !1,
+		                title: {
+		                    display: !1,
+		                    text: "Chart.js Line Chart"
+		                },
+		                legend: {
+		                    display: !1
+		                },
+		                layout: {
+		                    padding: {
+		                        left: 10,
+		                        right: 10,
+		                        top: 10,
+		                        bottom: 10
+		                    }
+		                },
+		                tooltips: {
+		                    mode: "index",
+		                    intersect: !1
+		                },
+		                hover: {
+		                    mode: "nearest",
+		                    intersect: !0
+		                },
+		                scales: {
+		                    xAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Month"
+		                        }
+		                    }],
+		                    yAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Value"
+		                        }
+		                    }]
+		                }
+		            }
+		    });
 
-    ctx1 = document.getElementById('testometric3').getContext('2d');
-    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin3)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
-    myChart = new Chart(ctx1, {
-      type: 'line',
-      data: data,
-      options: {
-                responsive: !0,
-                maintainAspectRatio: !1,
-                title: {
-                    display: !1,
-                    text: "Chart.js Line Chart"
-                },
-                legend: {
-                    display: !1
-                },
-                layout: {
-                    padding: {
-                        left: 10,
-                        right: 10,
-                        top: 10,
-                        bottom: 10
-                    }
-                },
-                tooltips: {
-                    mode: "index",
-                    intersect: !1
-                },
-                hover: {
-                    mode: "nearest",
-                    intersect: !0
-                },
-                scales: {
-                    xAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Month"
-                        }
-                    }],
-                    yAxes: [{
-                        display: !1,
-                        scaleLabel: {
-                            display: !0,
-                            labelString: "Value"
-                        }
-                    }]
-                }
-            }
-    });
-  });
-</script>
+		    ctx1 = document.getElementById('testometric3').getContext('2d');
+		    data = {"labels":<?=json_encode($record_date)?>,"datasets":[{"label":"Total Test","data":<?=json_encode($mesin3)?>,"fill":false,"borderColor":"#d63031","lineTension":0.1}]};
+		    myChart = new Chart(ctx1, {
+		      type: 'line',
+		      data: data,
+		      options: {
+		                responsive: !0,
+		                maintainAspectRatio: !1,
+		                title: {
+		                    display: !1,
+		                    text: "Chart.js Line Chart"
+		                },
+		                legend: {
+		                    display: !1
+		                },
+		                layout: {
+		                    padding: {
+		                        left: 10,
+		                        right: 10,
+		                        top: 10,
+		                        bottom: 10
+		                    }
+		                },
+		                tooltips: {
+		                    mode: "index",
+		                    intersect: !1
+		                },
+		                hover: {
+		                    mode: "nearest",
+		                    intersect: !0
+		                },
+		                scales: {
+		                    xAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Month"
+		                        }
+		                    }],
+		                    yAxes: [{
+		                        display: !1,
+		                        scaleLabel: {
+		                            display: !0,
+		                            labelString: "Value"
+		                        }
+		                    }]
+		                }
+		            }
+		    });
+		  });
+		</script>
 		<script type="text/javascript">
-		// $('.folder').resize(function(){
-		// 	change_fontsize();
-		// });
+		$('.folder').resize(function(){
+			change_fontsize();
+		});
 
 		$( document ).ready(function() {
 		    $( ".draggable" ).draggable({
@@ -855,8 +855,14 @@
 		    $( ".resizable-2" ).resizable({
 		    	alsoResize: "#folder2"
 		    });
+		    $( ".resizable-2b" ).resizable({
+		    	alsoResize: "#folder2b"
+		    });
 		    $( ".resizable-3" ).resizable({
 		    	alsoResize: "#folder3"
+		    });
+		    $( ".resizable-3b" ).resizable({
+		    	alsoResize: "#folder3b"
 		    });
 		    $( ".resizable-4" ).resizable({
 		    	alsoResize: "#folder4"
