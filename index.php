@@ -64,6 +64,7 @@
 		<title>Dashboard</title>
 		<link href="dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href="dist/css/jquery-ui.min.css" rel="stylesheet">
+		<link href="dist/css/fontawesome.min.css" rel="stylesheet">
 		<link href="dist/css/style.css" rel="stylesheet">
 	  <!-- <script type="text/javascript" src="dist/js/jquery-3.4.1.slim.min.js"></script> -->
 	  <!-- <script type="text/javascript" src="dist/js/jquery-1.12.4.js"></script> -->
@@ -153,7 +154,7 @@
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
 								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_1-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
+									<input type="text" name="knob_1-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="180" data-angleOffset="-90" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
 							</div>
@@ -184,14 +185,22 @@
 							<canvas id="elemendorf1" height="100%"></canvas>
 						</div>
 						<div class="col-9 px-1">
-							<div class="row">
-								<div class="col-sm-3 px-1">
+							<div class="row align-items-center">
+								<!-- <div class="col-sm-3 px-1">
 									<input type="text" name="knob_2-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
 								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_2-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
+								</div> -->
+								<div class="col-sm-auto px-1">
+									Tearing Strength
+								</div>
+								<div class="col-sm pl-1 pr-3">
+									<div class="progress">
+									  <div name="bar_2-1" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -221,14 +230,22 @@
 							<canvas id="elemendorf2" height="100%"></canvas>
 						</div>
 						<div class="col-9 px-1">
-							<div class="row">
-								<div class="col-sm-3 px-1">
+							<div class="row align-items-center">
+								<!-- <div class="col-sm-3 px-1">
 									<input type="text" name="knob_2b-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
 								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_2b-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
+								</div> -->
+								<div class="col-sm-auto px-1">
+									Tearing Strength
+								</div>
+								<div class="col-sm pl-1 pr-3">
+									<div class="progress">
+									  <div name="bar_2b-1" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -260,7 +277,7 @@
 							<canvas id="testometric1" height="100%"></canvas>
 						</div>
 						<div class="col-9 px-1">
-							<div class="row">
+							<!-- <div class="row">
 								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_4-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
@@ -276,6 +293,44 @@
 								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_4-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#9f00a7" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
+								</div>
+							</div> -->
+							<div class="row">
+								<div class="col-sm-6 col-md-4 px-1">
+									<i class="fas fa-square-full"></i> Linear Density
+								</div>
+								<div class="col-sm px-1 pr-3">
+									: 89 %
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-4 px-1">
+									<i class="fas fa-square-full"></i> Mark Force
+								</div>
+								<div class="col-sm px-1 pr-3">
+									<div class="progress">
+									  <div name="bar_4-1" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-4 px-1">
+									<i class="fas fa-square-full"></i> Work to Break
+								</div>
+								<div class="col-sm px-1 pr-3">
+									<div class="progress">
+									  <div name="bar_4-2" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-4 px-1">
+									<i class="fas fa-square-full"></i> Linear Density
+								</div>
+								<div class="col-sm px-1 pr-3">
+									<div class="progress">
+									  <div name="bar_4-3" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -305,7 +360,7 @@
 							<canvas id="statimat" height="100%"></canvas>
 						</div>
 						<div class="col-9">
-							<div class="row">
+							<!-- <div class="row">
 								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
@@ -322,32 +377,8 @@
 									<input type="text" name="knob_5-4" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#9f00a7" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
-								<!-- <div class="col-sm-2">
-									<input type="text" name="knob_5-5" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#99b433" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-								<div class="col-sm-2">
-									<input type="text" name="knob_5-6" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff7675" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div> -->
 							</div>
 							<div class="row">
-								<!-- <div class="col-sm-3 px-1">
-									<input type="text" name="knob_5-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_5-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_5-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff0080" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_5-4" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#9f00a7" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div> -->
 								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-5" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#99b433" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
@@ -355,6 +386,26 @@
 								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_5-6" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff7675" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
+								</div>
+							</div> -->
+							<div class="row">
+								<div class="col-sm-6 col-md-5 px-1">
+									<i class="fas fa-square-full"></i> Penetration
+								</div>
+								<div class="col-sm px-1">
+									<div class="progress">
+									  <div name="bar_5-1" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-5 px-1">
+									<i class="fas fa-square-full"></i> Puncture Depth
+								</div>
+								<div class="col-sm px-1">
+									<div class="progress">
+									  <div name="bar_5-2" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -386,7 +437,7 @@
 							<canvas id="testometric2" height="100%"></canvas>
 						</div>
 						<div class="col-9 px-1">
-							<div class="row">
+							<!-- <div class="row">
 								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
@@ -417,6 +468,22 @@
 									<input type="text" name="knob_3-7" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ee1111" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
 								</div>
+							</div> -->
+							<div class="row">
+								<div class="col-sm-6 px-1">
+									<i class="fas fa-square-full"></i> Test Direction: Pakan
+								</div>
+								<div class="col-sm-6 px-1">
+									<i class="fas fa-square-full"></i> Forcepeak: 12 Kgf
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 px-1">
+									<i class="fas fa-square-full"></i> Forcepeak: 89 N
+								</div>
+								<div class="col-sm-6 px-1">
+									<i class="fas fa-square-full"></i> Elongation: 89%
+								</div>
 							</div>
 						</div>
 			    	
@@ -445,7 +512,7 @@
 							<canvas id="testometric3" height="100%"></canvas>
 						</div>
 						<div class="col-9 px-1">
-							<div class="row">
+							<!-- <div class="row">
 								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3b-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
@@ -475,6 +542,22 @@
 								<div class="col-sm-3 px-1">
 									<input type="text" name="knob_3b-7" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ee1111" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
 									<div class="keterangan_chart">Keterangan</div>
+								</div>
+							</div> -->
+							<div class="row">
+								<div class="col-sm-6 px-1">
+									<i class="fas fa-square-full"></i> Test Direction: Lusi
+								</div>
+								<div class="col-sm-6 px-1">
+									<i class="fas fa-square-full"></i> Forcepeak: 12 Kgf
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 px-1">
+									<i class="fas fa-square-full"></i> Forcepeak: 89 N
+								</div>
+								<div class="col-sm-6 px-1">
+									<i class="fas fa-square-full"></i> Elongation: 89%
 								</div>
 							</div>
 						</div>
