@@ -82,6 +82,12 @@
 	  		margin-top: -1.5em;
 	  		font-size: 1rem;
 	  	}
+	  	.progress{
+	  		background: #283847;
+	  	}
+	  	.progress-bar{
+	  		background: linear-gradient(to right, #2CE7AD, #4160EA);
+	  	}
 	  	@media screen and (min-width: 1200px) {
 			  #folder1{
 			  	position: relative;
@@ -143,19 +149,19 @@
 			    		<!-- Progress: <span id="progress_1"></span><br> -->
 			    	</div>
 			    </div>
-					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap;">
+					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap; font-size: .8rem;">
 						<div class="col-3">
 							<canvas id="autoburst" height="100%"></canvas>
 						</div>
 						<div class="col-9 px-1">
 							<div class="row">
 								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_1-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
+									<input type="text" name="knob_1-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#f1c40f" data-thickness="0.3" data-angleArc="250" data-angleOffset="-125" readonly>
+									<div class="keterangan_chart">Distension</div>
 								</div>
 								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_1-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="180" data-angleOffset="-90" readonly>
-									<div class="keterangan_chart">Keterangan</div>
+									<input type="text" name="knob_1-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#e74c3c" data-thickness="0.3" data-angleArc="250" data-angleOffset="-125" readonly data-max='2000'>
+									<div class="keterangan_chart">Pressure</div>
 								</div>
 							</div>
 						</div>
@@ -180,7 +186,7 @@
 			    		<!-- Progress: <span id="progress_2"></span><br> -->
 			    	</div>
 			    </div>
-					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap;">
+					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap; font-size: .8rem;">
 						<div class="col-3">
 							<canvas id="elemendorf1" height="100%"></canvas>
 						</div>
@@ -199,7 +205,7 @@
 								</div>
 								<div class="col-sm pl-1 pr-3">
 									<div class="progress">
-									  <div name="bar_2-1" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+									  <div name="bar_2-1" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
 									</div>
 								</div>
 							</div>
@@ -225,7 +231,7 @@
 			    		<!-- Progress: <span id="progress_2"></span><br> -->
 			    	</div>
 			    </div>
-					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap;">
+					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap; font-size: .8rem;">
 						<div class="col-3">
 							<canvas id="elemendorf2" height="100%"></canvas>
 						</div>
@@ -244,167 +250,7 @@
 								</div>
 								<div class="col-sm pl-1 pr-3">
 									<div class="progress">
-									  <div name="bar_2b-1" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-			    	
-			    </div>
-			  </div>
-			</div>						
-			
-			<div class="clear"></div>
-
-			<div id="folder4" class="folder folder-25 card bg-transparent d-flex border-0 draggable pr-3">
-				<div class="folder-header">
-			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
-				</div>
-			  <div class="card-body resizable-4">
-			    <div class="row align-items-center justify-content-center">
-			    	<div class="col-4">
-			    		<img id="img_4" src="" width="80%">
-			    	</div>
-			    	<div class="col">
-			    		<h5 class="card-title"><span id="title_4">-</span></h5>
-			    		Costumer No: <span id="costumer_4"></span><br>
-			    		Date: <span id="date_4"></span><br>
-			    		<!-- Progress: <span id="progress_4"></span><br> -->
-			    	</div>
-			    </div>
-					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap;">
-						<div class="col-3">
-							<canvas id="testometric1" height="100%"></canvas>
-						</div>
-						<div class="col-9 px-1">
-							<!-- <div class="row">
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_4-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_4-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_4-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff0080" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_4-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#9f00a7" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-							</div> -->
-							<div class="row">
-								<div class="col-sm-6 col-md-4 px-1">
-									<i class="fas fa-square-full"></i> Linear Density
-								</div>
-								<div class="col-sm px-1 pr-3">
-									: 89 %
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-6 col-md-4 px-1">
-									<i class="fas fa-square-full"></i> Mark Force
-								</div>
-								<div class="col-sm px-1 pr-3">
-									<div class="progress">
-									  <div name="bar_4-1" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-6 col-md-4 px-1">
-									<i class="fas fa-square-full"></i> Work to Break
-								</div>
-								<div class="col-sm px-1 pr-3">
-									<div class="progress">
-									  <div name="bar_4-2" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-6 col-md-4 px-1">
-									<i class="fas fa-square-full"></i> Linear Density
-								</div>
-								<div class="col-sm px-1 pr-3">
-									<div class="progress">
-									  <div name="bar_4-3" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-			    	
-			    </div>
-			  </div>
-			</div>
-
-			<div id="folder5" class="folder folder-25 card bg-transparent d-flex border-0 draggable pr-3">
-				<div class="folder-header" >
-			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
-				</div>
-			  <div class="card-body resizable-5">
-			    <div class="row align-items-center justify-content-center">
-			    	<div class="col-4">
-			    		<img id="img_5" src="" width="80%">
-			    	</div>
-			    	<div class="col">
-			    		<h5 class="card-title"><span id="title_5">-</span></h5>
-			    		Costumer No: <span id="costumer_5"></span><br>
-			    		Date: <span id="date_5"></span><br>
-			    		<!-- Progress: <span id="progress_5"></span><br> -->
-			    	</div>
-			    </div>
-					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap;">
-						<div class="col-3">
-							<canvas id="statimat" height="100%"></canvas>
-						</div>
-						<div class="col-9">
-							<!-- <div class="row">
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_5-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_5-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_5-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff0080" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_5-4" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#9f00a7" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_5-5" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#99b433" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-								<div class="col-sm-3 px-1">
-									<input type="text" name="knob_5-6" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff7675" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
-									<div class="keterangan_chart">Keterangan</div>
-								</div>
-							</div> -->
-							<div class="row">
-								<div class="col-sm-6 col-md-5 px-1">
-									<i class="fas fa-square-full"></i> Penetration
-								</div>
-								<div class="col-sm px-1">
-									<div class="progress">
-									  <div name="bar_5-1" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-6 col-md-5 px-1">
-									<i class="fas fa-square-full"></i> Puncture Depth
-								</div>
-								<div class="col-sm px-1">
-									<div class="progress">
-									  <div name="bar_5-2" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+									  <div name="bar_2b-1" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
 									</div>
 								</div>
 							</div>
@@ -432,7 +278,7 @@
 			    		<!-- Progress: <span id="progress_3"></span><br> -->
 			    	</div>
 			    </div>
-					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap;">
+					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap; font-size: .8rem;">
 						<div class="col-3">
 							<canvas id="testometric2" height="100%"></canvas>
 						</div>
@@ -471,18 +317,18 @@
 							</div> -->
 							<div class="row">
 								<div class="col-sm-6 px-1">
-									<i class="fas fa-square-full"></i> Test Direction: Pakan
+									<i class="fas fa-square-full"></i> Test Direction: <span id="arah_3"></span>
 								</div>
 								<div class="col-sm-6 px-1">
-									<i class="fas fa-square-full"></i> Forcepeak: 12 Kgf
+									<i class="fas fa-square-full"></i> Forcepeak: <span id="forcepeakKgf_3"></span>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-sm-6 px-1">
-									<i class="fas fa-square-full"></i> Forcepeak: 89 N
+									<i class="fas fa-square-full"></i> Forcepeak: <span id="forcepeakN_3"></span>
 								</div>
 								<div class="col-sm-6 px-1">
-									<i class="fas fa-square-full"></i> Elongation: 89%
+									<i class="fas fa-square-full"></i> Elongation: <span id="elongpeak_3"></span>
 								</div>
 							</div>
 						</div>
@@ -507,7 +353,7 @@
 			    		<!-- Progress: <span id="progress_3"></span><br> -->
 			    	</div>
 			    </div>
-					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap;">
+					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap; font-size: .8rem;">
 						<div class="col-3">
 							<canvas id="testometric3" height="100%"></canvas>
 						</div>
@@ -546,18 +392,186 @@
 							</div> -->
 							<div class="row">
 								<div class="col-sm-6 px-1">
-									<i class="fas fa-square-full"></i> Test Direction: Lusi
+									<i class="fas fa-square-full"></i> Test Direction: <span id="arah_3b"></span>
 								</div>
 								<div class="col-sm-6 px-1">
-									<i class="fas fa-square-full"></i> Forcepeak: 12 Kgf
+									<i class="fas fa-square-full"></i> Forcepeak: <span id="forcepeakKgf_3b"></span>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-sm-6 px-1">
-									<i class="fas fa-square-full"></i> Forcepeak: 89 N
+									<i class="fas fa-square-full"></i> Forcepeak: <span id="forcepeakN_3b"></span>
 								</div>
 								<div class="col-sm-6 px-1">
-									<i class="fas fa-square-full"></i> Elongation: 89%
+									<i class="fas fa-square-full"></i> Elongation: <span id="elongpeak_3b"></span>
+								</div>
+							</div>
+						</div>
+			    	
+			    </div>
+			  </div>
+			</div>						
+			
+			<div class="clear"></div>
+
+			<div id="folder4" class="folder folder-25 card bg-transparent d-flex border-0 draggable pr-3">
+				<div class="folder-header">
+			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
+				</div>
+			  <div class="card-body resizable-4">
+			    <div class="row align-items-center justify-content-center">
+			    	<div class="col-4">
+			    		<img id="img_4" src="" width="80%">
+			    	</div>
+			    	<div class="col">
+			    		<h5 class="card-title"><span id="title_4">-</span></h5>
+			    		Costumer No: <span id="costumer_4"></span><br>
+			    		Date: <span id="date_4"></span><br>
+			    		<!-- Progress: <span id="progress_4"></span><br> -->
+			    	</div>
+			    </div>
+					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap; font-size: .8rem;">
+						<div class="col-3">
+							<canvas id="testometric1" height="100%"></canvas>
+						</div>
+						<div class="col-9 px-1">
+							<!-- <div class="row">
+								<div class="col-sm-3 px-1">
+									<input type="text" name="knob_4-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
+									<div class="keterangan_chart">Keterangan</div>
+								</div>
+								<div class="col-sm-3 px-1">
+									<input type="text" name="knob_4-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
+									<div class="keterangan_chart">Keterangan</div>
+								</div>
+								<div class="col-sm-3 px-1">
+									<input type="text" name="knob_4-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff0080" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
+									<div class="keterangan_chart">Keterangan</div>
+								</div>
+								<div class="col-sm-3 px-1">
+									<input type="text" name="knob_4-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#9f00a7" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
+									<div class="keterangan_chart">Keterangan</div>
+								</div>
+							</div> -->
+							<div class="row">
+								<div class="col-sm-6 col-md-auto text-nowarp px-1">
+									<i class="fas fa-square-full"></i> Elongation
+								</div>
+								<div class="col-sm px-1 pr-3">
+									: <span id="eab_4"></span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-auto text-nowarp px-1">
+									<i class="fas fa-square-full"></i> Linear Density
+								</div>
+								<div class="col-sm px-1 pr-3">
+									: <span id="tex_4"></span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-auto text-nowarp px-1">
+									<i class="fas fa-square-full"></i> Tenacity
+								</div>
+								<div class="col-sm px-1 pr-3">
+									<div class="progress">
+									  <div name="bar_4-1" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-auto text-nowarp px-1">
+									<i class="fas fa-square-full"></i> Mark Force
+								</div>
+								<div class="col-sm px-1 pr-3">
+									<div class="progress">
+									  <div name="bar_4-2" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-auto text-nowarp px-1">
+									<i class="fas fa-square-full"></i> Work to Break
+								</div>
+								<div class="col-sm px-1 pr-3">
+									<div class="progress">
+									  <div name="bar_4-3" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+			    	
+			    </div>
+			  </div>
+			</div>
+
+			<div id="folder5" class="folder folder-25 card bg-transparent d-flex border-0 draggable pr-3">
+				<div class="folder-header" >
+			  	<div class="card-header bg-transparent rounded-0 p-2"></div>
+				</div>
+			  <div class="card-body resizable-5">
+			    <div class="row align-items-center justify-content-center">
+			    	<div class="col-4">
+			    		<img id="img_5" src="" width="80%">
+			    	</div>
+			    	<div class="col">
+			    		<h5 class="card-title"><span id="title_5">-</span></h5>
+			    		Costumer No: <span id="costumer_5"></span><br>
+			    		Date: <span id="date_5"></span><br>
+			    		<!-- Progress: <span id="progress_5"></span><br> -->
+			    	</div>
+			    </div>
+					<div class="row align-items-center justify-content-center mt-1" style="flex-wrap: nowrap; font-size: .8rem;">
+						<div class="col-3">
+							<canvas id="statimat" height="100%"></canvas>
+						</div>
+						<div class="col-9">
+							<!-- <div class="row">
+								<div class="col-sm-3 px-1">
+									<input type="text" name="knob_5-1" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#2d89ef" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
+									<div class="keterangan_chart">Keterangan</div>
+								</div>
+								<div class="col-sm-3 px-1">
+									<input type="text" name="knob_5-2" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ffc40d" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
+									<div class="keterangan_chart">Keterangan</div>
+								</div>
+								<div class="col-sm-3 px-1">
+									<input type="text" name="knob_5-3" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff0080" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
+									<div class="keterangan_chart">Keterangan</div>
+								</div>
+								<div class="col-sm-3 px-1">
+									<input type="text" name="knob_5-4" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#9f00a7" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
+									<div class="keterangan_chart">Keterangan</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-3 px-1">
+									<input type="text" name="knob_5-5" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#99b433" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
+									<div class="keterangan_chart">Keterangan</div>
+								</div>
+								<div class="col-sm-3 px-1">
+									<input type="text" name="knob_5-6" class="knob" value="0" data-width="95%" data-height="95%" data-fgColor="#ff7675" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" readonly>
+									<div class="keterangan_chart">Keterangan</div>
+								</div>
+							</div> -->
+							<div class="row">
+								<div class="col-sm-6 col-md-5 px-1">
+									<i class="fas fa-square-full"></i> Penetration
+								</div>
+								<div class="col-sm px-1">
+									<div class="progress">
+									  <div name="bar_5-1" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-5 px-1">
+									<i class="fas fa-square-full"></i> Puncture Depth
+								</div>
+								<div class="col-sm px-1">
+									<div class="progress">
+									  <div name="bar_5-2" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1014,77 +1028,71 @@
 		  }
 
 		  async function put_data(data) {
-		  	await $("#title_1").text(data["title_1"]);
-		  	await $("#img_1").attr("src", data["img_1"]);
-		  	await $("#costumer_1").text(data["costumer_1"]);
-		    await $("#date_1").text(data["date_1"]);
-		    await $("#progress_1").text(data["progress_1"]);
+		  	$("#title_1").text(data["title_1"]);
+		  	$("#img_1").attr("src", data["img_1"]);
+		  	$("#costumer_1").text(data["costumer_1"]);
+		    $("#date_1").text(data["date_1"]);
+		    $("#progress_1").text(data["progress_1"]);
 		    change_val_knob("knob_1-1", data["knob_1-1"]);
 		    change_val_knob("knob_1-2", data["knob_1-2"]);
 
-		    await $("#title_2").text(data["title_2"]);
-		  	await $("#img_2").attr("src", data["img_2"]);
-		  	await $("#costumer_2").text(data["costumer_2"]);
-		    await $("#date_2").text(data["date_2"]);
-		    await $("#progress_2").text(data["progress_2"]);
-		    change_val_knob("knob_2-1", data["knob_2-1"]);
-		    change_val_knob("knob_2-2", data["knob_2-2"]);
 
-			await $("#title_2b").text(data["title_2b"]);
-		  	await $("#img_2b").attr("src", data["img_2b"]);
-		  	await $("#costumer_2b").text(data["costumer_2b"]);
-		    await $("#date_2b").text(data["date_2b"]);
-		    await $("#progress_2b").text(data["progress_2b"]);
-		    change_val_knob("knob_2b-1", data["knob_2b-1"]);
-		    change_val_knob("knob_2b-2", data["knob_2b-2"]);
+		    $("#title_2").text(data["title_2"]);
+		  	$("#img_2").attr("src", data["img_2"]);
+		  	$("#costumer_2").text(data["costumer_2"]);
+		    $("#date_2").text(data["date_2"]);
+		    $("#progress_2").text(data["progress_2"]);
+		    $("div[name=bar_2-1]").css("width", data["bar_2-1"]);
 
-		    await $("#title_4").text(data["title_4"]);
-		  	await $("#img_4").attr("src", data["img_4"]);
-		  	await $("#costumer_4").text(data["costumer_4"]);
-		    await $("#date_4").text(data["date_4"]);
-		    await $("#progress_4").text(data["progress_4"]);
-		    change_val_knob("knob_4-1", data["knob_4-1"]);
-		    change_val_knob("knob_4-2", data["knob_4-2"]);
-		    change_val_knob("knob_4-3", data["knob_4-3"]);
-		    change_val_knob("knob_4-4", data["knob_4-4"]);
 
-		    await $("#title_5").text(data["title_5"]);
-		  	await $("#img_5").attr("src", data["img_5"]);
-		  	await $("#costumer_5").text(data["costumer_5"]);
-		    await $("#date_5").text(data["date_5"]);
-		    await $("#progress_5").text(data["progress_5"]);
-		    change_val_knob("knob_5-1", data["knob_5-1"]);
-		    change_val_knob("knob_5-2", data["knob_5-2"]);
-		    change_val_knob("knob_5-3", data["knob_5-3"]);
-		    change_val_knob("knob_5-4", data["knob_5-4"]);
-		    change_val_knob("knob_5-5", data["knob_5-5"]);
-		    change_val_knob("knob_5-6", data["knob_5-6"]);
+				$("#title_2b").text(data["title_2b"]);
+		  	$("#img_2b").attr("src", data["img_2b"]);
+		  	$("#costumer_2b").text(data["costumer_2b"]);
+		    $("#date_2b").text(data["date_2b"]);
+		    $("#progress_2b").text(data["progress_2b"]);
+		    $("div[name=bar_2b-1]").css("width", data["bar_2b-1"]);
 
-		    await $("#title_3").text(data["title_3"]);
-		  	await $("#img_3").attr("src", data["img_3"]);
-		  	await $("#costumer_3").text(data["costumer_3"]);
-		    await $("#date_3").text(data["date_3"]);
-		    await $("#progress_3").text(data["progress_3"]);
-		    change_val_knob("knob_3-1", data["knob_3-1"]);
-		    change_val_knob("knob_3-2", data["knob_3-2"]);
-		    change_val_knob("knob_3-3", data["knob_3-3"]);
-		    change_val_knob("knob_3-4", data["knob_3-4"]);
-		    change_val_knob("knob_3-5", data["knob_3-5"]);
-		    change_val_knob("knob_3-6", data["knob_3-6"]);
-		    change_val_knob("knob_3-7", data["knob_3-7"]);
 
-			await $("#title_3b").text(data["title_3b"]);
-		  	await $("#img_3b").attr("src", data["img_3b"]);
-		  	await $("#costumer_3").text(data["costumer_3b"]);
-		    await $("#date_3b").text(data["date_3b"]);
-		    await $("#progress_3b").text(data["progress_3b"]);
-		    change_val_knob("knob_3b-1", data["knob_3b-1"]);
-		    change_val_knob("knob_3b-2", data["knob_3b-2"]);
-		    change_val_knob("knob_3b-3", data["knob_3b-3"]);
-		    change_val_knob("knob_3b-4", data["knob_3b-4"]);
-		    change_val_knob("knob_3b-5", data["knob_3b-5"]);
-		    change_val_knob("knob_3b-6", data["knob_3b-6"]);
-		    change_val_knob("knob_3b-7", data["knob_3b-7"]);
+		    $("#title_3").text(data["title_3"]);
+		  	$("#img_3").attr("src", data["img_3"]);
+		  	$("#costumer_3").text(data["costumer_3"]);
+		    $("#date_3").text(data["date_3"]);
+		    $("#progress_3").text(data["progress_3"]);
+		    $("#arah_3").text(data["arah_3"]);
+		    $("#forcepeakN_3").text(data["forcepeakN_3"]);
+		    $("#forcepeakKgf_3").text(data["forcepeakKgf_3"]);
+		    $("#elongpeak_3").text(data["elongpeak_3"]);
+
+
+		    $("#title_3b").text(data["title_3b"]);
+		  	$("#img_3b").attr("src", data["img_3b"]);
+		  	$("#costumer_3").text(data["costumer_3b"]);
+		    $("#date_3b").text(data["date_3b"]);
+		    $("#progress_3b").text(data["progress_3b"]);
+		    $("#arah_3b").text(data["arah_3b"]);
+		    $("#forcepeakN_3b").text(data["forcepeakN_3b"]);
+		    $("#forcepeakKgf_3b").text(data["forcepeakKgf_3b"]);
+		    $("#elongpeak_3b").text(data["elongpeak_3b"]);
+
+
+		    $("#title_4").text(data["title_4"]);
+		  	$("#img_4").attr("src", data["img_4"]);
+		  	$("#costumer_4").text(data["costumer_4"]);
+		    $("#date_4").text(data["date_4"]);
+		    $("#progress_4").text(data["progress_4"]);
+		    $("#eab_4").text(data["eab_4"]);
+		    $("#tex_4").text(data["tex_4"]);
+		    $("div[name=bar_4-1]").css("width", data["ten_4"]);
+		    $("div[name=bar_4-2]").css("width", data["fab_4"]);
+		    $("div[name=bar_4-3]").css("width", data["wtb_4"]);
+
+		    $("#title_5").text(data["title_5"]);
+		  	$("#img_5").attr("src", data["img_5"]);
+		  	$("#costumer_5").text(data["costumer_5"]);
+		    $("#date_5").text(data["date_5"]);
+		    $("#progress_5").text(data["progress_5"]);
+		    $("div[name=bar_5-1]").css("width", data["penetration_5"]);
+		    $("div[name=bar_5-2]").css("width", data["puncturedepth_5"]);
 		  }
 
 		  function change_val_knob(name, value){
