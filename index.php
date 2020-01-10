@@ -88,6 +88,12 @@
 	  	.progress-bar{
 	  		background: linear-gradient(to right, #2CE7AD, #4160EA);
 	  	}
+	  	.value-bar{
+	  		background: linear-gradient(to right, #2CE7AD, #4160EA);
+	  		-webkit-background-clip: text;
+  			-webkit-text-fill-color: transparent;
+  			font-size: 1rem;
+	  	}
 	  	@media screen and (min-width: 1200px) {
 			  #folder1{
 			  	position: relative;
@@ -203,6 +209,10 @@
 								<div class="col-sm-auto px-1">
 									Tearing Strength
 								</div>
+								<div class="col-sm-auto px-1 font-weight-bold value-bar" name="bar_2_text-1">
+									0
+								</div>
+
 								<div class="col-sm pl-1 pr-3">
 									<div class="progress">
 									  <div name="bar_2-1" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
@@ -248,6 +258,10 @@
 								<div class="col-sm-auto px-1">
 									Tearing Strength
 								</div>
+								<div class="col-sm-auto px-1 font-weight-bold value-bar" name="bar_2b_text-1">
+									0
+								</div>
+
 								<div class="col-sm pl-1 pr-3">
 									<div class="progress">
 									  <div name="bar_2b-1" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
@@ -473,6 +487,9 @@
 								<div class="col-sm-6 col-md-auto text-nowarp px-1">
 									<i class="fas fa-square-full"></i> Tenacity
 								</div>
+								<div class="col-sm-auto px-1 font-weight-bold value-bar" name="bar_4_text-1">
+									0
+								</div>
 								<div class="col-sm px-1 pr-3">
 									<div class="progress">
 									  <div name="bar_4-1" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
@@ -483,6 +500,9 @@
 								<div class="col-sm-6 col-md-auto text-nowarp px-1">
 									<i class="fas fa-square-full"></i> Mark Force
 								</div>
+								<div class="col-sm-auto px-1 font-weight-bold value-bar" name="bar_4_text-2">
+									0
+								</div>
 								<div class="col-sm px-1 pr-3">
 									<div class="progress">
 									  <div name="bar_4-2" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
@@ -492,6 +512,9 @@
 							<div class="row">
 								<div class="col-sm-6 col-md-auto text-nowarp px-1">
 									<i class="fas fa-square-full"></i> Work to Break
+								</div>
+								<div class="col-sm-auto px-1 font-weight-bold value-bar" name="bar_4_text-3">
+									0
 								</div>
 								<div class="col-sm px-1 pr-3">
 									<div class="progress">
@@ -558,6 +581,9 @@
 								<div class="col-sm-6 col-md-5 px-1">
 									<i class="fas fa-square-full"></i> Penetration
 								</div>
+								<div class="col-sm-auto px-1 font-weight-bold value-bar" name="bar_5_text-1">
+									0
+								</div>
 								<div class="col-sm px-1">
 									<div class="progress">
 									  <div name="bar_5-1" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
@@ -567,6 +593,9 @@
 							<div class="row">
 								<div class="col-sm-6 col-md-5 px-1">
 									<i class="fas fa-square-full"></i> Puncture Depth
+								</div>
+								<div class="col-sm-auto px-1 font-weight-bold value-bar" name="bar_5_text-2">
+									0
 								</div>
 								<div class="col-sm px-1">
 									<div class="progress">
@@ -1042,7 +1071,8 @@
 		  	$("#costumer_2").text(data["costumer_2"]);
 		    $("#date_2").text(data["date_2"]);
 		    $("#progress_2").text(data["progress_2"]);
-		    $("div[name=bar_2-1]").css("width", data["bar_2-1"]);
+		    $("div[name=bar_2_text-1]").text(data["bar_2-1"]+'%');
+		    $("div[name=bar_2-1]").css("width", data["bar_2-1"]+'%');
 
 
 				$("#title_2b").text(data["title_2b"]);
@@ -1050,7 +1080,8 @@
 		  	$("#costumer_2b").text(data["costumer_2b"]);
 		    $("#date_2b").text(data["date_2b"]);
 		    $("#progress_2b").text(data["progress_2b"]);
-		    $("div[name=bar_2b-1]").css("width", data["bar_2b-1"]);
+		    $("div[name=bar_2b_text-1]").text(data["bar_2b-1"]+'%');
+		    $("div[name=bar_2b-1]").css("width", data["bar_2b-1"]+'%');
 
 
 		    $("#title_3").text(data["title_3"]);
@@ -1082,17 +1113,22 @@
 		    $("#progress_4").text(data["progress_4"]);
 		    $("#eab_4").text(data["eab_4"]);
 		    $("#tex_4").text(data["tex_4"]);
-		    $("div[name=bar_4-1]").css("width", data["ten_4"]);
-		    $("div[name=bar_4-2]").css("width", data["fab_4"]);
-		    $("div[name=bar_4-3]").css("width", data["wtb_4"]);
+		    $("div[name=bar_4_text-1]").text(data["ten_4"]+'%');
+		    $("div[name=bar_4-1]").css("width", data["ten_4"]+'%');
+		    $("div[name=bar_4_text-2]").text(data["fab_4"]+'%');
+		    $("div[name=bar_4-2]").css("width", data["fab_4"]+'%');
+		    $("div[name=bar_4_text-3]").text(data["wtb_4"]+'%');
+		    $("div[name=bar_4-3]").css("width", data["wtb_4"]+'%');
 
 		    $("#title_5").text(data["title_5"]);
 		  	$("#img_5").attr("src", data["img_5"]);
 		  	$("#costumer_5").text(data["costumer_5"]);
 		    $("#date_5").text(data["date_5"]);
 		    $("#progress_5").text(data["progress_5"]);
-		    $("div[name=bar_5-1]").css("width", data["penetration_5"]);
-		    $("div[name=bar_5-2]").css("width", data["puncturedepth_5"]);
+		    $("div[name=bar_5_text-1]").text(data["penetration_5"]+'%');
+		    $("div[name=bar_5-1]").css("width", data["penetration_5"]+'%');
+		    $("div[name=bar_5_text-2]").text(data["puncturedepth_5"]+'%');
+		    $("div[name=bar_5-2]").css("width", data["puncturedepth_5"]+'%');
 		  }
 
 		  function change_val_knob(name, value){
