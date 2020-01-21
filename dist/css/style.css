@@ -5,10 +5,8 @@ body{
 	background-position: center;
 	color: #fff;
   background-attachment: fixed;
-}
-.container-fluid{
-	width: 100%;
-	min-height: 100vh;
+  width: 100%;
+  min-height: 100vh;
 }
 .folder{
 	width: 100%;
